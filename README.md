@@ -75,6 +75,8 @@ All steps from this section must be performed
 - Type into console ```git submodule add git@github.com:seagullua/ADLib.git```
 - Close console
 - Create folder ```projects/MyProject/Resources```
+
+###1.11 Configure project
 - Create copy of the file ```environment.example.py``` and name it ```environment.py```
 - Open it with text editor and specify
 	* ```env.php_bin``` - the location of ```php.exe``` from step ```1.3```
@@ -92,7 +94,7 @@ All steps from this section must be performed
 - ```Run``` -> ```Working Directory``` select ```projects/MyProject/Resources``` folder created earlier. 
 - Press ```F5``` and wait project to compile. After compilation you should see white windows with facebook logo in the middle.
 
-###1.11 You are ready to go
+###1.12 You are ready to go
 No the project is configured you can start writing your code
 
 ##2. Build for Android
