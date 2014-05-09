@@ -1,0 +1,317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Joiny\n"
+"POT-Creation-Date: 2014-04-14 20:12+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../Classes\n"
+
+#: ../../Classes/AppDelegate.cpp:53
+msgid "iap.error.billing_unavaliable"
+msgstr "Error"
+
+#: ../../Classes/AppDelegate.cpp:58
+msgid "iap.error.purchase_error"
+msgstr "Restore Purchase error"
+
+#: ../../Classes/AppDelegate.cpp:66
+msgid "iap.restore_purchases.success"
+msgstr "Successfully restored purchases"
+
+#: ../../Classes/AppDelegate.cpp:71
+msgid "iap.restore_purchases.failed"
+msgstr "Restore Purchase failed"
+
+#: ../../Classes/GameInfo.cpp:162
+msgid "Highscore:"
+msgstr "Highscore:"
+
+#: ../../Classes/GameInfo.cpp:164
+msgid " in Letters 2048"
+msgstr ""
+
+#: ../../Classes/GameInfo.cpp:165
+msgid "facebook.game_description"
+msgstr ""
+"Can you beat me? Letters 2048 is an improved version of classical 2048 "
+"puzzle game. Instead of numbers you play with letters. Make a swipe to move "
+"the tile. When two tiles with the same letter collide, they merge into next "
+"letter. For example: A+A=B, K+K=L."
+
+#: ../../Classes/GameInfo.cpp:166
+msgid "http://4enjoy.com/letters-2048/"
+msgstr ""
+
+#: ../../Classes/BottomPanel/CurrencyBottomPanel.cpp:51
+msgid "Add"
+msgstr "Add"
+
+#: ../../Classes/Button/FacebookButton.cpp:20
+msgid "Log Out"
+msgstr "Log Out"
+
+#: ../../Classes/Button/FacebookButton.cpp:24
+msgid "Log In"
+msgstr "Log In"
+
+#: ../../Classes/Button/FacebookButton.cpp:26
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../Classes/Managers/FriendsHighscoreManager.cpp:236
+msgid "Me"
+msgstr "Me"
+
+#: ../../Classes/Managers/FriendsHighscoreManager.cpp:241
+msgid "Patriot"
+msgstr "Patriot"
+
+#: ../../Classes/Managers/FriendsHighscoreManager.cpp:250
+msgid "Eva"
+msgstr "Eva"
+
+#: ../../Classes/Managers/FriendsHighscoreManager.cpp:259
+msgid "Sophia"
+msgstr "Sophia"
+
+#: ../../Classes/PopUp/CurrencyPopUp.cpp:95
+msgid "Buy more coins"
+msgstr "Buy more coins"
+
+#: ../../Classes/PopUp/CurrencyPopUp.cpp:211
+msgid "Free"
+msgstr "Free"
+
+#: ../../Classes/PopUp/GoOutPopUp.cpp:26
+msgid "Sure"
+msgstr ""
+"Would you like\n"
+"to leave the game?"
+
+#: ../../Classes/PopUp/GoOutPopUp.cpp:47
+msgid "Yes"
+msgstr "Yes"
+
+#: ../../Classes/PopUp/GoOutPopUp.cpp:58
+msgid "No"
+msgstr "No"
+
+#: ../../Classes/ResultPanel/ResultPanel.cpp:31
+msgid "There are no more possible moves"
+msgstr ""
+"No more moves!\n"
+"Would you like to continue?"
+
+#: ../../Classes/ResultPanel/ResultPanel.cpp:56
+msgid "Beat Friends"
+msgstr "You have beat your friends!"
+
+#: ../../Classes/ResultPanel/ResultPanel.cpp:65
+#: ../../Classes/ResultPanel/ResultPanel.cpp:101
+msgid "Beat_a_friend"
+msgstr "You have beat your friend!"
+
+#: ../../Classes/ResultPanel/ResultPanel.cpp:73
+msgid "New_Heighscore"
+msgstr "You have a new Highscore!"
+
+#: ../../Classes/ResultPanel/ResultPanel.cpp:81
+msgid "New_highscore"
+msgstr "You have a new Highscore!"
+
+#: ../../Classes/ResultPanel/ResultPanel.cpp:92
+msgid "Beat_Friends"
+msgstr "You have beat your friends!"
+
+#: ../../Classes/ResultPanel/ResultPanel.cpp:107
+msgid "New_Score"
+msgstr "Can you improve your score?"
+
+#: ../../Classes/Scenes/DevelopersScene.cpp:61
+#: ../../Classes/Scenes/SettingsScene.cpp:163
+msgid "Developers"
+msgstr "Developers"
+
+#: ../../Classes/Scenes/GameEnd.cpp:156 ../../Classes/Scenes/MainMenu.cpp:131
+msgid "Contunue"
+msgstr "Continue"
+
+#: ../../Classes/Scenes/GameEnd.cpp:157
+msgid "Finish"
+msgstr "Finish"
+
+#: ../../Classes/Scenes/GameEnd.cpp:169 ../../Classes/Scenes/MainMenu.cpp:126
+msgid "Play"
+msgstr "Play"
+
+#: ../../Classes/Scenes/GameEnd.cpp:179
+msgid "Share"
+msgstr "Share"
+
+#: ../../Classes/Scenes/SettingsScene.cpp:66
+msgid "Settings"
+msgstr "Settings"
+
+#: ../../Classes/Scenes/SettingsScene.cpp:134
+msgid "Restor Purchases"
+msgstr "Restore Purchases"
+
+#: ../../Classes/Scenes/SettingsScene.cpp:148
+msgid "Rate the Game"
+msgstr "Rate the Game"
+
+#: ../../Classes/Table/Table.cpp:277
+msgid "tutorial_1_text"
+msgstr "Make a swipe to move all tiles"
+
+#: ../../Classes/Table/Table.cpp:315
+msgid "tutorial_2_text"
+msgstr ""
+"When two same tiles collide,\n"
+"the next letter appears. 'B' +'B' = 'C'"
+
+#: ../../Classes/Table/Table.cpp:349
+msgid "tutorial_3_text"
+msgstr ""
+"When you can't make the next move\n"
+"the game will be ended"
+
+#: ../../Classes/Table/Table.cpp:490
+msgid "delete_booster_help_text"
+msgstr ""
+"Choose a Letter,\n"
+"which you would like to remove."
+
+#: ../../Classes/Table/Table.cpp:496
+msgid "swap_booster_help_text"
+msgstr ""
+"Choose two Letters,\n"
+"which you would like to swap."
+
+#: ../../Classes/TopPanel/TopPanelScore.cpp:33
+msgid "Score"
+msgstr "Score"
+
+#~ msgid "New Game"
+#~ msgstr "New Game"
+
+#~ msgid "diana"
+#~ msgstr "Diana Sirenko"
+
+#~ msgid "andrii"
+#~ msgstr "Andrii Chaika"
+
+#~ msgid "test_list"
+#~ msgstr ""
+#~ "Music\n"
+#~ "Aziyan Nasir - \"Silly Fun\"\n"
+#~ "Löhstana David - \n"
+#~ "\"Demain je change de vie\"\n"
+#~ "\n"
+#~ "Thanks to\n"
+#~ "Andrew Afonin\n"
+#~ "Illya Spas"
+
+#~ msgid "copy"
+#~ msgstr "© 2014"
+
+#~ msgid "RateMePopUp.RateLabel"
+#~ msgstr "Is the game good?"
+
+#~ msgid "RateMePopUp.RateText"
+#~ msgstr "Rate the game"
+
+#~ msgid "Test_level_end"
+#~ msgstr "How do you rate this level?"
+
+#~ msgid "Good_level"
+#~ msgstr "Good"
+
+#~ msgid "So_level"
+#~ msgstr "I don`t know"
+
+#~ msgid "Bad_level"
+#~ msgstr "Bad"
+
+#~ msgid "BuyHint"
+#~ msgstr "Buy Hints"
+
+#~ msgid "buyHint_free"
+#~ msgstr "Free"
+
+#~ msgid "End_bad"
+#~ msgstr "Level failed!"
+
+#~ msgid "End_good"
+#~ msgstr "Score"
+
+#~ msgid "Retry"
+#~ msgstr "Retry"
+
+#~ msgid "Next"
+#~ msgstr "Next"
+
+#~ msgid "SelectColection.BuyFullVerdionPopUp.BuyTitle"
+#~ msgstr "Get 3 stars everywhere"
+
+#~ msgid "SelectColection.BuyFullVerdionPopUp.OrText"
+#~ msgstr "or"
+
+#~ msgid "SelectColection.BuyFullVerdionPopUp.Yes"
+#~ msgstr "Unlock now"
+
+#~ msgid "Collection"
+#~ msgstr "Collections"
+
+#~ msgid "Sure_reset"
+#~ msgstr ""
+#~ "Would you like\n"
+#~ " to delete all progress ?"
+
+#~ msgid "Reset"
+#~ msgstr "Reset Progress"
+
+#~ msgid "Rate"
+#~ msgstr "Rate Me"
+
+#~ msgid "thank"
+#~ msgstr "Thanks to:"
+
+#~ msgid "SelectColection.BuyFullVerdionPopUp.No"
+#~ msgstr "Cancel"
+
+#~ msgid "madeInUkraine"
+#~ msgstr "made in Ukraine"
+
+#~ msgid "main.exit.sure"
+#~ msgstr "Are you sure"
+
+#~ msgid "Sure_go_out"
+#~ msgstr "Are you sure?"
+
+#~ msgid "Go_out_the_game"
+#~ msgstr "Would you like to leave the game?"
+
+#~ msgid "Go_out"
+#~ msgstr "Would you like to leave the game?"
+
+#, fuzzy
+#~ msgid "No2"
+#~ msgstr "No"
+
+#~ msgid "thank1"
+#~ msgstr "Test1 Test1"
+
+#~ msgid "coppy"
+#~ msgstr "© 2014"
+
+#~ msgid "thank2"
+#~ msgstr "thank2rrrr"

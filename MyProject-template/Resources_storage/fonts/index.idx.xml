@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<directory>
+	<file>
+		<name>Fredoka One.ttf</name>
+	</file>
+	<file>
+		<name>Lasco-Bold.ttf</name>
+	</file>
+	<file>
+		<name>Fredoka One.png</name>
+	</file>
+	<file>
+		<name>Fredoka One.fnt</name>
+	</file>
+	<file>
+		<name>Lasco-Bold.png</name>
+	</file>
+	<file>
+		<name>Lasco-Bold.fnt</name>
+	</file>
+	<file>
+		<name>arial.ttf</name>
+		<platform>windows</platform>
+	</file>
+</directory>
