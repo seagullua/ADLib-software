@@ -98,5 +98,33 @@ All steps from this section must be performed
 No the project is configured you can start writing your code
 
 ##2. Build for Android
+This optional section. It is required if you would like to build your program for Android.
+
+###2.1 Install Android SDK
+- You can use download it from https://github.com/seagullua/ADLib-software/releases/download/sdk/Android-SDK-installer_r22.6.2-windows.exe
+- After installation open ```SDK Manager``` and install ```Android 4.3 (API 18)```
+
+###2.2 Install Android NDK
+- Download http://dl.google.com/android/ndk/android-ndk-r9d-windows-x86.zip
+- Extract to your PC
+
+###2.3 Configure build
+- Open ```projects/MyProject/environment.py``` with text editor and specify:
+	* ```env.android_sdk``` - Dir where you installed Android SDK from step 2.1
+	* ```env.android_ndk``` - Dir where you extracted Android NDK from step 2.2
+
+###2.4 Configure Qt Creator
+- Open project in Qt Creator
+- In left panel click ```Projects``` then in top panel you find ```Desktop Qt 5.*.* MSVC2012 32bit``` and press ```Build``` button
+	* In ```Build Settings``` section press Add -> Clone Selected
+	* Enter name Android
+	* Delete all from ```Build Steps``` section
+	* Press ```Add Build Step``` -> ```Custom Process Step```
+	* Enter ```Command```: ```%PYTHON3_DIR%/python.exe``` instead of  ```%PYTHON3_DIR%``` enter dir where you have installed python on step ```1.6```
+	* Enter ```Arguments```: ```%{sourceDir}\..\build.android.py debug_release```
+- Now in the left panel at the bottom you can switch between builds ```Debug``` - for windows and ```Android```
+- Select ```Android``` mode.
+- Attach you ```Android``` device to the pc
+- Press ```Ctrl+B``` and wait until the application will be launched on your device
 	
 
