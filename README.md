@@ -108,12 +108,16 @@ This optional section. It is required if you would like to build your program fo
 - Download http://dl.google.com/android/ndk/android-ndk-r9d-windows-x86.zip
 - Extract to your PC
 
-###2.3 Configure build
+###2.3 Install Apache Ant
+- Download and extract http://apache.ip-connect.vn.ua//ant/binaries/apache-ant-1.9.4-bin.zip
+
+###2.4 Configure build
 - Open ```projects/MyProject/environment.py``` with text editor and specify:
 	* ```env.android_sdk``` - Dir where you installed Android SDK from step 2.1
 	* ```env.android_ndk``` - Dir where you extracted Android NDK from step 2.2
+	* ```env.ant_dir``` - Dir to Apache Ant from step 2.3
 
-###2.4 Configure Qt Creator
+###2.5 Configure Qt Creator
 - Open project in Qt Creator
 - In left panel click ```Projects``` then in top panel you find ```Desktop Qt 5.*.* MSVC2012 32bit``` and press ```Build``` button
 	* In ```Build Settings``` section press Add -> Clone Selected
